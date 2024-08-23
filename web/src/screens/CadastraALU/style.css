@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+  }
+  
+  h1{
+    font-weight: 100;
+  }
+  
+  .btnCAD{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    display: block; /* Alterado para "block" para ocupar a largura total disponível */
+    margin: 30px auto; /* Margem superior de 30px e centralizar horizontalmente */
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;   
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+  }
+  
+  button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2596be;
+    color: #fff;
+    border: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 680px;
+  }
+
+
+

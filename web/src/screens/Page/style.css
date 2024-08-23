@@ -1,0 +1,106 @@
+.pageContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding: 9rem 10rem;
+  }
+ 
+  .pageTitle {
+    font-size: 5rem;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+  }
+ 
+  #blue {
+    color: #1acdfa;
+  }
+ 
+  .btnSignIn {
+    background-color: #1acdfa;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    margin-left: 0;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .btnSignIn:hover {
+    background-color: #0d8de4;
+    text-decoration: none;
+  }
+ 
+  .companySection,
+  .contactSection {
+    margin-top: 30px;
+  }
+ 
+  .companySection h2,
+  .contactSection h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+ 
+  .companySection p,
+  .contactSection p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+ 
+  .contactSection ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .contactSection li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+ 
+  .contactSection a {
+    color: #1acdfa;
+    text-decoration: none;
+  }
+ 
+  .contactSection a:hover {
+    text-decoration: underline;
+  }
+ 
+
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+ 
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+ 
+  .navbar li {
+    margin-right: 20px;
+  }
+ 
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ 
+  .navbar a.active {
+    color: #1acdfa;
+  }
